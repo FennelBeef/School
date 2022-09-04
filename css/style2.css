@@ -1,0 +1,289 @@
+.father{
+	position: relative;	
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+	position: absolute;
+	width: auto;
+	height:180px;
+	margin: 0 auto;
+}
+.caption{
+	margin: 0px;
+	padding: 0px;
+	height: 120px;
+	background-image:url(../image/wall.png);
+}
+#text1{
+	font-size: 50px;
+	position: absolute;
+	bottom:65px;
+	left: 130px;
+	font-family: "宋体";
+	margin: 20 px;
+	font-weight: bold;	
+	letter-spacing: 3px;
+	
+}
+#text2{
+	margin: 0px;
+	font-family:"宋体";
+	position: absolute;
+	font-size: 18px;
+	right:0px ;
+	width: 300px;
+	bottom:60px;
+	font-weight: bold;
+}
+.photo{
+	width: 1200px;
+	height: 65px;
+	margin: 5px 31.50px;
+	
+}
+.photo img{
+	position: absolute;
+	width: 80px;
+	width: 80px;
+	left:30px;
+	bottom:60px;
+}
+.list{
+	width: auto;
+	height: 55px;
+	background-color: #f9ddda;
+}
+.list ul{
+	position: absolute;
+	right: 20px;
+	margin: 0px;
+	bottom: 10px;
+}
+.list ul li{
+	font-size: 20px;
+	display: inline-block;
+	color:black;
+	list-style: square;
+	margin: 0px 10px;
+}
+.list ul li a{
+	text-decoration: none;
+} 
+.list ul li a:link {
+	color:black;	
+}
+.list ul li a:visited {
+	
+color:black;			
+}
+.list ul li a:hover {
+	background-color: red;
+color:white;	
+}
+.list ul li a:active {
+	color:black;
+}
+
+
+.bodyer{
+	position: absolute;
+	top: 180px;
+	width:1263px;
+	height: 510px;
+	background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    
+
+}
+.bodyer .box{
+	opacity:1;
+	width:1100px;
+	height: 460px;
+	background-color: whitesmoke;
+	margin:40px auto  0px auto;
+	position:relative;
+	border-radius:10px;
+}
+#box1{
+	position:absolute;
+
+	width:300px;
+	height: 400px;
+	left: 30px;
+	top:30px;
+}
+.bodyer .box #text1_1{	
+	color: red;
+	font-size: 40px;
+	font-family:"宋体";
+	font-weight: bold;
+	position: relative;
+	top:10px;
+	
+}
+.bodyer .box #text2_1{
+
+	font-size: 20px;	
+	font-family:"宋体";
+	font-weight: bold;
+	margin: 35px 0px;
+}
+.bodyer .box #text3_1{
+	position: absolute;
+	bottom: 30px;
+	color: red;
+	font-size: 30px;
+	font-family:"宋体";	
+	font-weight: bold;
+}
+#box2{
+	position:absolute;
+	width:700px;
+	height: 40px;
+	right: 30px;
+	top:30px;
+}
+.a1,.a2,.a3,.a4{
+	width: 21px;
+	height: 65px;
+	display: inline-block;	
+}
+#box2 .a1 a{
+	text-decoration: none;
+	color:black;
+	position: absolute;
+	right: 290px;
+}
+#box2 .a2 a{
+	text-decoration: none;
+	color:black;
+	position: absolute;
+	right: 200px;
+}
+#box2 .a3 a{
+	text-decoration: none;
+	color:black;
+	position: absolute;
+	right: 110px;
+}
+#box2 .a4 a{
+	text-decoration: none;
+	color:black;
+	position: absolute;
+	right: 20px;
+}
+.redcolor1{
+	width:75px;
+	height:5px;
+	position:absolute;
+    right: 285px;
+    top: 27px;
+	transition-duration: 1S;	
+	margin: 0px;
+	
+	
+}
+.redcolor2{
+	width:75px;
+	height:5px;
+	position:absolute;
+    right: 195px;
+    top: 27px;
+    
+	transition-duration: 1S;	
+	margin: 0px;
+	
+}
+.redcolor3{
+	width:75px;
+	height:5px;
+	position:absolute;
+    right: 105px;
+    top: 27px;
+ 
+	transition-duration: 1S;	
+	margin: 0px;
+	
+}
+.redcolor4{
+	width:75px;
+	height:5px;
+	position:absolute;
+    right: 15px;
+    top: 27px;
+   
+	transition-duration: 1S;	
+	margin: 0px;	
+}
+.redcolor1,.redcolor2,.redcolor3,.redcolor4{
+background-color: whitesmoke;
+}
+
+.a1:hover + .redcolor1{
+	background-color: red;
+}
+.a2:hover + .redcolor2{
+	background-color: red;
+}
+.a3:hover + .redcolor3{
+	background-color: red;
+}
+.a4:hover + .redcolor4{
+	background-color: red;
+}
+#box3{
+	position:absolute;
+	width:700px;
+	height: 350px;
+	right: 30px;
+	bottom:50px;
+}
+.photo1_1{
+	margin: 10px;
+	width:300px;
+	height:330px;
+	
+}
+.photo2_1{
+	margin: 10px;
+	position:absolute;
+	top:0px;
+	right:20px;
+	width:350px;
+	height:160px;
+	
+}
+.photo3_1{	
+	right:20px;
+	position:absolute;
+	margin: 10px;
+	width:350px;
+	height:160px;
+	bottom:-3px;	
+}
+.photo1_1 img{
+	width:300px;
+	height:330px;
+}
+.photo2_1 img{
+	width:350px;
+	height:160px;
+}
+.photo3_1 img{
+	width:350px;
+	height:160px;
+}
+.last{
+	position: absolute;
+	top:690px;
+	height: 110px;
+	width:1263px;
+	background-color:#c5c7c8 ;
+}
+.last p{
+	margin: 5px auto;
+	text-align: center;
+}

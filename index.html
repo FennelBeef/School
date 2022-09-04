@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>实训作业首页</title>
+		<link rel="stylesheet" href="css/style1.css" >
+		<link rel="stylesheet" href="css/carousel.css" />
+		<link rel="stylesheet" href="css/control.css">
+		
+	</head>
+	<body>
+	<div class="father">
+		
+    <div class="header"> 
+    	<div class="caption">
+    		
+    		<div class="photo">
+    		<img src="image/book.png"/>
+    		</div>
+    		
+    		<p id="text1">希望光明小学</p>
+    		<p id="text2">长风破浪会有时，直挂云帆济沧海</p>
+    		
+    	</div>
+    	<div class="list">
+    		<ul >
+	<li><a href="index.html">首页&gt;</a></li>
+	<li><a href="index2.html">校园风光&gt;</a></li>
+	<li><a href="index3.html">师资力量&gt;</a></li>
+	<li><a href="index4.html">联系我们&gt;</a></li>
+   </ul>
+   	</div>
+    </div>
+    
+    <div class="bodyer">
+    	<div class="container">
+
+        <!--控制转到第几张按钮-->
+        <input id="btn1"  name="dir" type="radio"  />
+        <input id="btn2"  name="dir" type="radio"  />
+        <input id="btn3" name="dir" type="radio"  />
+        <input id="btn4" name="dir" type="radio"  />
+        <input id="btn5" name="dir" type="radio"  />
+
+        <!--控制往左边轮播-->
+        <input id="left_btn1" class="dir_btn" name="dir" type="radio"  />
+        <input id="left_btn2" class="dir_btn" name="dir" type="radio"  />
+        <input id="left_btn3" class="dir_btn" name="dir" type="radio"  />
+        <input id="left_btn4" class="dir_btn" name="dir" type="radio"  />
+        <input id="left_btn5" class="dir_btn" name="dir" type="radio"  />
+
+        <!--控制往右边轮播-->
+        <input id="right_btn1" class="dir_btn"  name="dir" type="radio"  />
+        <input id="right_btn2"  class="dir_btn" name="dir" type="radio"  />
+        <input id="right_btn3" class="dir_btn" name="dir" type="radio"  />
+        <input id="right_btn4" class="dir_btn" name="dir" type="radio"  />
+        <input id="right_btn5" class="dir_btn" name="dir" type="radio"  />
+
+        <!--存放图片-->
+        <div class="pic">
+
+            <!--给所有图片套一个盒子 通过左边距进行轮播-->
+            <div class="box">
+                <img src="image/1.jpg">
+                <img src="image/2.jpg">
+                <img src="image/3.jpg">
+                <img src="image/4.jpg">
+                <img src="image/5.jpg">
+            </div>
+
+            <!--给图片前面加一层图片层 用于实现无缝轮播-->
+            <div class="before_box">
+                <img src="image/5.jpg">
+                <img src="image/1.jpg">
+            </div>
+
+            <!--给图片后面加一层图片层 用于实现无缝轮播-->
+            <div class="after_box">
+                <img src="image/5.jpg">
+                <img src="image/1.jpg">
+            </div>
+        </div>
+
+        <!--左边的按钮 每次点击都会根据当前是第几张决定显示的按钮-->
+        <div class="left_box dir_box">
+            <label class="left_btn_1 btn_btn_1" for="left_btn1"></label>
+            <label class="left_btn_2 btn_btn_2" for="left_btn2"></label>
+            <label class="left_btn_3 btn_btn_3" for="left_btn3"></label>
+            <label class="left_btn_4 btn_btn_4" for="left_btn4"></label>
+            <label class="left_btn_5 btn_btn_5" for="left_btn5"></label>
+        </div>
+
+        <!--右边的按钮 每次点击都会根据当前是第几张决定显示的按钮-->
+        <div class="right_box dir_box">
+            <label class="right_btn_1 btn_btn_1" for="right_btn1"></label>
+            <label class="right_btn_2 btn_btn_2" for="right_btn2"></label>
+            <label class="right_btn_3 btn_btn_3" for="right_btn3"></label>
+            <label class="right_btn_4 btn_btn_4" for="right_btn4"></label>
+            <label class="right_btn_5 btn_btn_5" for="right_btn5"></label>
+        </div>
+
+        <!--下方按钮 点击各个按钮 决定跳转到第几张-->
+        <div class="count">
+            <ul>
+                <li class="current">
+                    <label class="btn_1" for="btn1"></label>
+                </li>
+                <li>
+                    <label class="btn_2" for="btn2"></label>
+                </li>
+                <li>
+                    <label class="btn_3" for="btn3"></label>
+                </li>
+                <li>
+                    <label class="btn_4" for="btn4"></label>
+                </li>
+                <li>
+                    <label class="btn_5" for="btn5"></label>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    	</div>
+	
+	<div class="footer">
+		<div class="text1">	
+		<p style="color: red; font-size: 20px;">学校简介：</p>
+		<p style="text-indent: 2em;">这个原名为“希望光明小学”的学校原来是一座残破不堪的学
+			校顶固手拉手爱心助学计划捐建的新校园2009年投入使用，
+			教学楼有三层，教室采光和通风都很好，极大地改善了孩子们学习环境。
+		</p>              
+ </div>
+		<div class="text2">	
+		<p style="color: red; font-size: 20px;">希望工程1+1:</p>
+		<p style="text-indent: 2em;"> 《义务教育法》规定：国家鼓励社会组织和个人向义务教育捐赠。在农村贫困地区，
+                  虽然国家实行了"两免一补"，但由于家庭贫困，加上大量乡村学校被撤并，许许多多农村的孩子要上学，
+               还要支付交通、住宿和伙食等费用。他们的上学路，困难重重！
+		</p>              
+ </div>
+		<div class="photo">
+			<img src="image/people.png">
+		</div>
+	</div>
+	<div class="last">
+		<div class="black">			
+		<p>@希望光明小学|隐私政策|联系平台</p>
+		<p>备案号：1234567890</p>
+		<p>捐赠热线：010-64790590</p>
+		<p>希望光明小学 版权所有 © 2021 abcd.org.cn All rights reserved. 京ICP备123456789号</p>
+		</div>
+	</div>
+	</div>
+
+	</body>
+</html>

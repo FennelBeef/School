@@ -1,0 +1,151 @@
+.father{
+	position: relative;	
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+	position: absolute;
+	width: auto;
+	height:180px;
+	margin: 0 auto;
+}
+.caption{
+	margin: 0px;
+	padding: 0px;
+	height: 120px;
+	background-image:url(../image/wall.png);
+	
+}
+#text1{
+	font-size: 50px;
+	position: absolute;
+	bottom:65px;
+	left: 130px;
+	font-family: "宋体";
+	margin: 20 px;
+	font-weight: bold;	
+	letter-spacing: 3px;
+	
+}
+#text2{
+	margin: 0px;
+	font-family:"宋体";
+	position: absolute;
+	font-size: 18px;
+	right:0px ;
+	width: 300px;
+	bottom:60px;
+	font-weight: bold;
+}
+.photo{
+	width: 1200px;
+	height: 65px;
+	margin: 5px 31.50px;
+	
+}
+.photo img{
+	position: absolute;
+	width: 80px;
+	width: 80px;
+	left:30px;
+	bottom:60px;
+}
+.list{
+	width: auto;
+	height: 55px;
+	background-color: #f9ddda;
+}
+.list ul{
+	position: absolute;
+	right: 20px;
+	margin: 0px;
+	bottom: 10px;
+}
+.list ul li{
+	font-size: 20px;
+	display: inline-block;
+	color:black;
+	list-style: square;
+	margin: 0px 10px;
+}
+a{
+	text-decoration: none;
+} 
+a:link {
+	color:black;	
+}
+a:visited {
+	
+color:black;			
+}
+a:hover {
+	background-color: red;
+    color:white;	
+}
+a:active {
+	color:black;
+}
+.bodyer{
+	position: absolute;
+	top: 180px;
+	width:1263px;
+	height: 330px;
+	background-image: url(../image/cloud.jpg);
+}
+.container{
+	z-index: 99;
+	margin: 0 auto;
+}
+
+.footer{
+	height: 180px;
+	width: auto;
+	position: absolute;
+	top:510px;
+	
+	background-color: #f9ddda ;
+}
+.footer:after{
+	content: "";
+	width: 100%;
+}
+.footer .text1{
+	font-family: "宋体";
+	width: 270px;
+	height: 150px;
+	display: inline-block;
+	position: absolute;
+	top:20px;
+	left: 40px;
+}
+
+.footer .text2{
+	font-family: "宋体";
+	width: 350px;
+	height: 150px;
+	display: inline-block;
+	position: absolute;
+	top:20px;
+	left: 350px;
+}
+.footer .photo img{
+	position: absolute;
+	top:40px;
+	left: 750px;
+	height: 130px;
+	width: 400px;
+}
+.last{
+	position: absolute;
+	top:690px;
+	height: 110px;
+	width:1263px;
+	background-color:#c5c7c8 ;
+	
+}
+.last p{
+	margin: 5px auto;
+	text-align: center;
+}

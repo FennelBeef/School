@@ -1,0 +1,322 @@
+.father{
+	position: relative;	
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+	position: absolute;
+	width: auto;
+	height:180px;
+	margin: 0 auto;
+}
+p{
+	font-family: "宋体";
+}
+.caption{
+	margin: 0px;
+	padding: 0px;
+	height: 120px;
+	background-image:url(../image/wall.png);
+}
+#text1{
+	font-size: 50px;
+	position: absolute;
+	bottom:65px;
+	left: 130px;
+	font-family: "宋体";
+	margin: 20 px;
+	font-weight: bold;	
+	letter-spacing: 3px;
+	
+}
+#text2{
+	margin: 0px;
+	font-family:"宋体";
+	position: absolute;
+	font-size: 18px;
+	right:0px ;
+	width: 300px;
+	bottom:60px;
+	font-weight: bold;
+}
+.photo{
+	width: 1200px;
+	height: 65px;
+	margin: 5px 31.50px;
+	
+}
+.photo img{
+	position: absolute;
+	width: 80px;
+	width: 80px;
+	left:30px;
+	bottom:60px;
+}
+.list{
+	width: auto;
+	height: 55px;
+	background-color: #f9ddda;
+}
+.list ul{
+	position: absolute;
+	right: 20px;
+	margin: 0px;
+	bottom: 10px;
+}
+.list ul li{
+	font-size: 20px;
+	display: inline-block;
+	color:black;
+	list-style: square;
+	margin: 0px 10px;
+}
+.list ul li a{
+	text-decoration: none;
+} 
+.list ul li a:link {
+	color:black;	
+}
+.list ul li a:visited {
+	
+color:black;			
+}
+.list ul li a:hover {
+	background-color: red;
+color:white;	
+}
+.list ul li a:active {
+	color:black;
+}
+
+
+.bodyer{
+	position: absolute;
+	top: 180px;
+	width:1263px;
+	height: 510px;
+	background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    
+
+}
+.bodyer .box{
+	opacity:1;
+	width:1100px;
+	height: 460px;
+	background-color: whitesmoke;
+	margin:40px auto  0px auto;
+	position:relative;
+	border-radius:10px;
+}
+
+.bodyer .box #text1_1{	
+	color: red;
+	font-size: 40px;
+	font-family:"宋体";
+	font-weight: bold;
+	position: relative;
+	top:10px;
+	
+}
+.bodyer .box #text2_1{
+
+	font-size: 20px;	
+	font-family:"宋体";
+	font-weight: bold;
+	margin: 20px 10px;
+}
+.bodyer .box #text3_1{
+	position: absolute;
+	bottom: 30px;
+	color: red;
+	font-size: 30px;
+	font-family:"宋体";	
+	font-weight: bold;
+}
+#box2{
+	position:absolute;
+	width:700px;
+	height: 40px;
+	right: 30px;
+	top:30px;
+}
+.a1,.a2,.a3,.a4{
+	width: 21px;
+	height: 65px;
+	display: inline-block;	
+}
+#box2 .a1 a{
+	text-decoration: none;
+	color:black;
+	position: absolute;
+	right: 290px;
+}
+#box2 .a2 a{
+	text-decoration: none;
+	color:black;
+	position: absolute;
+	right: 200px;
+}
+#box2 .a3 a{
+	text-decoration: none;
+	color:black;
+	position: absolute;
+	right: 110px;
+}
+#box2 .a4 a{
+	text-decoration: none;
+	color:black;
+	position: absolute;
+	right: 20px;
+}
+
+.redcolor2{
+	width:75px;
+	height:5px;
+	position:absolute;
+    right: 195px;
+    top: 27px;
+    
+	transition-duration: 1S;	
+	margin: 0px;
+	
+}
+.redcolor3{
+	width:75px;
+	height:5px;
+	position:absolute;
+    right: 105px;
+    top: 27px;
+ 
+	transition-duration: 1S;	
+	margin: 0px;
+	
+}
+.redcolor4{
+	width:75px;
+	height:5px;
+	position:absolute;
+    right: 15px;
+    top: 27px;
+   
+	transition-duration: 1S;	
+	margin: 0px;	
+}
+.redcolor2,.redcolor3,.redcolor4{
+background-color: whitesmoke;
+}
+
+
+.a2:hover + .redcolor2{
+	background-color: red;
+}
+.a3:hover + .redcolor3{
+	background-color: red;
+}
+.a4:hover + .redcolor4{
+	background-color: red;
+}
+.box1{
+	height:30px ;
+	width:558px;
+    background-color:#8eb4d5;
+    position: absolute;
+    top:30px;
+    left: 40px;
+    border-radius: 10px;
+}
+.box1 p{
+	margin: 6px ;
+	
+}
+#box3,#box4,#box5
+{
+	height: 330px;
+	width: 330px;
+
+	margin: 10px;
+	position: absolute;
+	top:80px;
+}
+#box3{
+	right: 720px;
+}
+#box3 img{
+	height: 330px;
+	width: 330px;
+	
+	border-radius: 10px;
+}
+#box3 #p1{
+	position: absolute;
+	top:200px;
+	color: red;
+	font-weight:bold;
+	font-size: 23px;
+}
+#box3 #p2{
+	position: absolute;
+	top:230px;
+
+	font-weight: bold;
+}
+#box3 #p3{
+	position: absolute;
+	top:292px;
+	color: red;
+	font-weight: bold;
+	font-size: 23px;
+}
+#box4{
+	right: 360px;
+}
+.box4_1{
+	width:330px;
+	height: 190px;
+		border-radius: 10px;
+}
+.box4_2{
+	width:330px;
+	height: 140px;
+	 background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+	border-radius: 0px 0px  10px 10px;
+}
+.box4_1 img{
+	width:330px;
+	height: 190px;
+	border-radius:  10px 10px 0px 0px;
+}
+.p4_1{
+	font-size: 23px;
+	color: red;
+
+}
+.p4_2{
+	font-size: 23px;
+	color: red;
+	margin: 5px 0px;
+}
+.p4_4{
+	font-size: 23px;
+	color: red;
+	margin: 5px;
+}
+.p5_4{
+	color: red;
+}
+#box5{
+	right: 0px;
+}
+.last{
+	position: absolute;
+	top:690px;
+	height: 110px;
+	width:1263px;
+	background-color:#c5c7c8 ;
+}
+.last p{
+	margin: 5px auto;
+	text-align: center;
+}
